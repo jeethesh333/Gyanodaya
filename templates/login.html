@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+<link rel="shortcut icon" href="static/images/favicon.png" type="image/x-icon">
+<title>Login Page</title>
+</head>
+<body>
+  <body>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>Welcome to Gyanodaya</h3>
+          </div>
+          {%- for category, message in get_flashed_messages(with_categories = true) %}
+            <div class = "alert alert-danger">
+                {{ message }}
+            </div>
+          {%- endfor %}
+        </div>
+        <form class="login-form">
+            <div class="google-btn" onclick="location.href='{{url_for('login_sso')}}'">
+                <div class="google-icon-wrapper">
+                  <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+                </div>
+                <p class="btn-text"><b>Sign in with Google</b></p>
+              </div>
+        </form>
+      </div>
+    </div>
+</body>
+</body>
+</html>

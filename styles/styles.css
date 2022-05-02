@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+.google-btn {
+  position: relative;
+  margin: auto;
+  width: 184px;
+  height: 42px;
+  background-color: #4285f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.google-btn .google-icon-wrapper {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.google-btn .google-icon {
+  float: left;
+  position: relative;
+  margin-top: 11px;
+  margin-left: 11px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.google-btn .btn-text {
+  float: right;
+  margin: 11px 11px 0 0;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+.google-btn:hover {
+  box-shadow: 0 0 6px #4285f4;
+}
+.google-btn:active {
+  background: #1669F2;
+}
+
+
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+
+.login-page {
+  width: 700px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form label {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form input[type=button] {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pulse-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: .25;
+    transform: scale(.75);
+  }
+}
+.pulse-bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.pulse-bubble-1 {
+    animation: pulse .4s ease 0s infinite alternate;
+}
+.pulse-bubble-2 {
+    animation: pulse .4s ease .2s infinite alternate;
+}
+.pulse-bubble-3 {
+    animation: pulse .4s ease .4s infinite alternate;
+}

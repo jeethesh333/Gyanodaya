@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+<title>Home Page</title>
+</head>
+<body>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>{{welcome_msg}}</h3>
+            <p>Hello {{name}}</p>
+            <form class="login-form" method='post' action='/logout'>
+                <button type='submit'>Logout</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</body>
+</html>

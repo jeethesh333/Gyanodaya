@@ -1,0 +1,27 @@
+body
+{
+    font-family: serif;
+    font-style: oblique;
+    background-color: cornsilk;
+}
+hr{
+
+   
+  border-style:none;
+  border-top-style: dotted;
+  width: 27%;
+  border-color: brown;
+  border-width: 5px;
+  align-content:left ;
+  
+
+}
+h3{
+    color: #66bfbf;
+}
+h1{
+    color:#66bfbf;
+}
+img{
+    background-color: red;
+}

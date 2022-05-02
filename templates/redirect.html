@@ -1,0 +1,16 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+    <title>Redirecting...</title>
+    <head>
+        <meta http-equiv="refresh" content="{{time}};url={{destination}}" />
+    </head>
+    <body>
+        <p>Redirecting <div class="spinner-box">
+            <div class="pulse-container">  
+              <div class="pulse-bubble pulse-bubble-1"></div>
+              <div class="pulse-bubble pulse-bubble-2"></div>
+              <div class="pulse-bubble pulse-bubble-3"></div>
+            </div>
+          </div></p>
+    </body>
+</html>
